@@ -82,40 +82,6 @@ These results indicate good generalization with minimal overfitting.
 
 Plots clearly show model convergence and improved performance over epochs.
 
-## 🚀 How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/rice-classification-cnn.git
-cd rice-classification-cnn
-
-
-Install dependencies:
-
-pip install torch torchvision matplotlib torchinfo
-
-
-Train the model:
-
-python train.py
-
-
-Evaluate / Load trained model:
-
-model.load_state_dict(torch.load("models/model_0.pth"))
-model.eval()
-
-
-## 🧪 Future Improvements
-
-Data augmentation for better generalization
-
-Try deeper architectures (ResNet, EfficientNet)
-
-Hyperparameter tuning
-
-Deployment as a web application (Django / FastAPI)
-
 🏁 Conclusion
 
 This project demonstrates how CNNs can effectively classify rice varieties based on visual features. Despite the similarity between rice grains, the model achieves high accuracy, proving the effectiveness of deep learning in agricultural image analysis

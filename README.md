@@ -1,4 +1,4 @@
-🍚 Rice Type Classification using CNN
+# 🍚 Rice Type Classification using CNN
 
 This project focuses on classifying rice grain images into different varieties using a Convolutional Neural Network (CNN). The model is trained on the Kaggle Rice Image Dataset and demonstrates strong performance in distinguishing visually similar rice types.
 
@@ -20,7 +20,7 @@ The dataset contains five different rice varieties:
 
 Each class consists of high-quality rice grain images captured under controlled conditions, making it suitable for image classification tasks.
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 A custom CNN-based classifier was designed and trained from scratch.
 
@@ -46,7 +46,7 @@ Output Classes: 5
 
 The final output layer uses Softmax (via CrossEntropyLoss) for multi-class classification.
 
-⚙️ Training Details
+## ⚙️ Training Details
 
 Framework: PyTorch
 
@@ -60,7 +60,7 @@ Epochs: 5
 
 Input Image Size: 224 × 224
 
-📊 Results & Performance
+## 📊 Results & Performance
 Loss Curve
 
 Training loss steadily decreased across epochs
@@ -75,14 +75,14 @@ Test Accuracy: ~93–95%
 
 These results indicate good generalization with minimal overfitting.
 
-📈 Visualizations
+## 📈 Visualizations
 
 <img width="1294" height="497" alt="image" src="https://github.com/user-attachments/assets/c4ea8f0d-d618-44cd-b984-d867aedac47f" />
 
 
 Plots clearly show model convergence and improved performance over epochs.
 
-🚀 How to Run
+## 🚀 How to Run
 
 Clone the repository:
 
@@ -120,7 +120,7 @@ model.eval()
 ├── utils.py
 ├── README.md
 
-🧪 Future Improvements
+## 🧪 Future Improvements
 
 Data augmentation for better generalization
 

@@ -105,20 +105,6 @@ Evaluate / Load trained model:
 model.load_state_dict(torch.load("models/model_0.pth"))
 model.eval()
 
-📂 Project Structure
-.
-├── dataset/
-│   ├── Arborio/
-│   ├── Basmati/
-│   ├── Ipsala/
-│   ├── Jasmine/
-│   └── Karacadag/
-├── models/
-│   └── model_0.pth
-├── train.py
-├── evaluate.py
-├── utils.py
-├── README.md
 
 ## 🧪 Future Improvements
 
